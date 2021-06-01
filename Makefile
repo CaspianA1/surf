@@ -1,6 +1,6 @@
 CC = clang
 OUT = surf
-CFLAGS = -O3 -Wall -Wformat -lncurses -o bin/$(OUT)
+CFLAGS = -Wall -Wformat -lncurses -o bin/$(OUT)
 
 all: build run
 
